@@ -1,0 +1,8 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist"
+  },
+  "include": ["src/**/*", "types/**/*"],
+  "exclude": ["src/**/*.stories.tsx", "src/**/*.screenshot.tsx", "src/**/__screenshots__"]
+}

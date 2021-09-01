@@ -1,0 +1,14 @@
+{
+  "name": "@react-actors/core",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "tanmen",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "directory": "dist"
+  }
+}
