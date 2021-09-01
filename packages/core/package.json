@@ -1,14 +1,14 @@
 {
-  "name": "@react-actors/core",
+  "name": "@tanmen/core",
   "version": "0.0.0",
   "main": "index.js",
   "author": "tanmen",
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepublish": "yarn build && cp package.json dist && cp ../../LICENSE dist"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com",
     "directory": "dist"
   }
 }

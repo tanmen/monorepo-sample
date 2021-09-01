@@ -1465,6 +1465,11 @@ cosmiconfig@^7.0.0:
     path-type "^4.0.0"
     yaml "^1.10.0"
 
+cp@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/cp/-/cp-0.2.0.tgz#a0874183a09e885eb72792582ab68ce3932b135d"
+  integrity sha1-oIdBg6CeiF63J5JYKraM45MrE10=
+
 cross-spawn@^7.0.3:
   version "7.0.3"
   resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-7.0.3.tgz#f73a85b9d5d41d045551c177e2882d4ac85728a6"
